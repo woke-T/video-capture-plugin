@@ -1,0 +1,32 @@
+{
+  "name": "video-capture-plugin",
+  "version": "1.0.0",
+  "description": "this is video capture plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config config/webpack.dev.config.js",
+    "build": "webpack --config config/webpack.prod.config.js",
+    "pub": "npm run build && npm publish"
+  },
+  "keywords": [
+    "video",
+    "video capture",
+    "video upload",
+    "javascript",
+    "react",
+    "vue"
+  ],
+  "author": "woke",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wokeT/video-capture-plugin"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "files": ["lib"]
+}
